@@ -22,11 +22,11 @@ services:
       - ./data/config.js:/cryptpad/config/config.js
 
     ports:
-      - "80:80"
+      - "9666:9666"
       - "443:443"
 
     expose:
-      - "80"
+      - "9666"
       - "443"
 
     ulimits:
